@@ -1,0 +1,40 @@
+{
+  "manifest_version": 3,
+  "name": "ReadToVoiceroid",
+  "version": "1.0",
+  "description": "Firefox extension to read web content using Voiceroid.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "notifications",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "scripts": [
+      "background.js"
+    ],
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": "icons/yukarin.ico"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "icons": {
+    "128": "icons/yukarin.ico"
+  }
+}
