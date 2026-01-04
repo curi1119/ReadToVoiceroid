@@ -22,9 +22,6 @@
     "notifications",
     "contextMenus"
   ],
-  "host_permissions": [
-    "<all_urls>"
-  ],
   "background": {
     "service_worker": "background.js",
     "scripts": [
@@ -36,16 +33,6 @@
     "default_popup": "popup/index.html",
     "default_icon": "icons/yukarin.png"
   },
-  "content_scripts": [
-    {
-      "matches": [
-        "<all_urls>"
-      ],
-      "js": [
-        "content.js"
-      ]
-    }
-  ],
   "icons": {
     "128": "icons/yukarin.png"
   }
