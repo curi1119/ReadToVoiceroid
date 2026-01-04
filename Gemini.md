@@ -5,8 +5,6 @@ ChromeとFirefoxの拡張機能です。
 
 ## To Gemini
 
-- 日本語で回答してください。
-- mdファイルを生成する時は日本語で記述してください。
 - gitの操作は許可があるまでしないでください。
 
 ## Implementation Ideas
