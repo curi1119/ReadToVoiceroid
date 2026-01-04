@@ -1,0 +1,10 @@
+# Firefox distribution packages
+*.zip
+
+# System / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Project specific logs or temporary files
+*.log
